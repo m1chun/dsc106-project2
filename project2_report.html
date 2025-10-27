@@ -163,12 +163,15 @@
         <h3>FOR the Proposition</h3>
 
         <figure>
+          <div id="vis"></div>
           <script>
-            vegaEmbed('#vis', 'final_viz1.json').then(result => {
-              console.log('Embeded viz 1 successfully')}).catch(console.error);
+            vegaEmbed('#vis', 'final_viz1.json')
+              .then(result => { console.log('Embedded viz 1 successfully'); })
+              .catch(console.error);
           </script>
-          <img src="" alt="Scatterplot showing women leaving red states to get abortions" />
-          <figcaption>More women living in red states leave their home state to get abortions while blue states.</figcaption>
+          <figcaption>
+            More women living in red states leave their home state to get abortions while blue states.
+          </figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
