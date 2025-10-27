@@ -187,8 +187,15 @@
         <h3>AGAINST the Proposition</h3>
 
         <figure>
-          <img src="final_viz2.svg" alt="Changes in abortions and clinics are not one-sided" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <div id="vis"></div>
+          <script>
+            vegaEmbed('#vis', 'final_viz2.json')
+              .then(result => { console.log('Embedded viz 1 successfully'); })
+              .catch(console.error);
+          </script>
+          <figcaption>
+            More women living in red states leave their home state to get abortions while blue states.
+          </figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
