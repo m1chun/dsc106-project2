@@ -177,9 +177,10 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>Blue and red dots are often correlated with Democrat and Republican parties, respectively, so keeping those colors consistent reduces confusion amonsgt readers</li>
-          <li>Making the visualization interactive so readers can hover over the dots and identify the states and specific percentages allows for more access to the data</li>
-          <li>Bolding and inscreasing titles to help create a story for the readers.</li>
+          <li>Blue and red dots are often correlated with Democrat and Republican parties, respectively, so keeping those colors consistent reduces confusion for our readers. (2)</li>
+          <li>Making the visualization interactive so readers can hover over the dots and identify the states and specific percentages creates a whole other pathway for users to interact with our data. It also allows for easier direct comparison between states. We thought maybe this wasn’t all that necessary but being able to pick out a specific state and info about it is a really useful tool. (1)</li>
+          <li>A scatterplot effectively presents the relationship between two numerical-ratio data variables. By changing the hue of the data points, we are able to visualize three variables at once. (2)</li>
+          <li>Using dots as representation of each state enables users to clearly see outliers in the data and how those outliers are mostly Republican states. It would've been unnecessarily confusing to pick a different symbol of representing them. (2)</li>
         </ul>
       </section>
 
@@ -201,16 +202,20 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>We consciously chose the same type of graph as our first visualization so users can compare and contrast the different graphics more easily. (2)</li>
+          <li>The axes in this visualization were chosen to emphasize the lack of correlation as opposed to the first visualization. It is not obvious whether there is a relationship between the change in abortion access and political party. Using our colored dots we aim to show that states controlled by different parties can’t be grouped as high or low abortion access based on change in abortions and abortion clinics. (0)</li>
+          <li>Our title is long but clearly states the point we’re trying to convince the reader of. Without clearly stating that red/blue states aren’t really different, it would be hard to tell what the graphic is trying to prove. (-1)</li>
+          <li>The random trend of the plot makes it appear that abortion rates and percent change in the number of clinics are the same for red and blue states which could lead the viewer to determine that abortion access is the same for both categories of states. (-2)</li>
+          <li>The x-axis is particularly deceiving because states with fewer abortion clinics in 2017 will have a larger percent change by 2020 without necessarily providing adequate abortion care throughout the state. (-2)</li>
         </ul>
       </section>
 
       <section>
         <h2>Final Reflection</h2>
 
-        <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+        <p>The hardest part of this project was trying to find data that fit two opposing narratives. We ended up going more into the find-correct-data-that-backs-up-two-opposite-trends-route instead of the manipulate-data-into-saying-what-we-want-route, but both options proved to be pretty difficult. For the first visualization, we found it easy to create effective visualizations for trends that were evident in the data. Though, for the counter-argument, we had to be more creative in manipulating the visualization to fit the narrative by using different quantitative measures of abortion access. Overall, since we have many states to display, we have to choose a visualization type that would express the differences between parties while also limiting the data-to-ink ratio. For this reason, bar charts would be especially ineffective due to the difficulty of comparing state-by-state differences.</p>
+        <p>Generally, this project has taught us that it’s either really difficult to create misleading visualizations or it happens by accident. It depends on if data scientists are conscious of their biases when creating visualizations with their data. It’s easy to dismiss conclusions that don’t align with your own as just bad data or a bad interpretation. When making our visualizations, we first found a positive relationship between the percent of women getting out-of-state abortions and percent of women living in a county without an abortion clinic. This inspired us to look at the relationship between political parties and abortion access. For the second visualization, we employed percent change in abortions and percent change in abortion clinics from 2017-2020. By utilizing two other variables to seemingly quantify abortion access, we were able to create a visualization to support the counterargument. A less misleading representation would be to standardize the percent change so states with fewer abortion clinics don’t show exaggerated changes. This is why domain knowledge is important for ensuring the creation of accurate data representation that reflects the question at hand. If you are having to manipulate the data or search deep for the data to support your perspective, it is a sign that your biases may be clouding your data visualization.</p>
+        <p>It’s unreasonable to expect people to not try to be persuasive with a visualization. For starters, some conclusions are just “more true” than others. Data scientists should be conscious of their biases but in many cases it’s useful to try to prove an explicit point as obviously as possible, even if some would call that misleading. </p>
       </section>
     </main>
   </body>
